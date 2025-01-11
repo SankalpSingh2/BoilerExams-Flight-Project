@@ -1,0 +1,15 @@
+Total number of records: 112827
+Unique flights: 8109
+Unique operators: 2232
+Highest altitude: 50000 ft
+Lowest altitude: -1150 ft
+Average altitude: 22804.62 ft
+Unique geographic locations (lat/lon pairs): 108259
+Number of flights at ground level or below: 314
+
+Top 5 operators by flight count:
+  None: 18914 flights
+  DELTA AIR LINES INC: 5132 flights
+  UNITED AIRLINES INC: 5021 flights
+  AMERICAN AIRLINES INC: 4474 flights
+  SOUTHWEST AIRLINES CO: 4387 flights

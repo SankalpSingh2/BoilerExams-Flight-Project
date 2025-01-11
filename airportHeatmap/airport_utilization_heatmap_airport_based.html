@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_19a4398ea299f4abb18650c07e02eb70 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_19a4398ea299f4abb18650c07e02eb70" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_19a4398ea299f4abb18650c07e02eb70 = L.map(
+                "map_19a4398ea299f4abb18650c07e02eb70",
+                {
+                    center: [44.13771, -115.03229],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 6,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_329c3d320c15b4a05f24e759e21f5528 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_19a4398ea299f4abb18650c07e02eb70);
+        
+    
+            var circle_marker_93435588a8dc18084d5e010f155a58a5 = L.circleMarker(
+                [48.1103, 16.5697],
+                {"bubblingMouseEvents": true, "color": "darkred", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkred", "fillOpacity": 1.0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_19a4398ea299f4abb18650c07e02eb70);
+        
+    
+        var popup_c601908f567d8e23b3be8935abf809e7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8e5b3debf98e5133e6be453ddf5d61bc = $(`<div id="html_8e5b3debf98e5133e6be453ddf5d61bc" style="width: 100.0%; height: 100.0%;">Vienna International Airport (VIE): 15 descending flights</div>`)[0];
+                popup_c601908f567d8e23b3be8935abf809e7.setContent(html_8e5b3debf98e5133e6be453ddf5d61bc);
+            
+        
+
+        circle_marker_93435588a8dc18084d5e010f155a58a5.bindPopup(popup_c601908f567d8e23b3be8935abf809e7)
+        ;
+
+        
+    
+    
+            var circle_marker_8181b0e1d71a8c0d0cb21b847b4c8b2b = L.circleMarker(
+                [39.9171, 25.2363],
+                {"bubblingMouseEvents": true, "color": "darkred", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkred", "fillOpacity": 1.0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_19a4398ea299f4abb18650c07e02eb70);
+        
+    
+        var popup_a1627994e96653742488a0f241d80506 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d82d1f1be7f09264492ed35bd93b9a2a = $(`<div id="html_d82d1f1be7f09264492ed35bd93b9a2a" style="width: 100.0%; height: 100.0%;">Lemnos International Airport (LXS): 15 descending flights</div>`)[0];
+                popup_a1627994e96653742488a0f241d80506.setContent(html_d82d1f1be7f09264492ed35bd93b9a2a);
+            
+        
+
+        circle_marker_8181b0e1d71a8c0d0cb21b847b4c8b2b.bindPopup(popup_a1627994e96653742488a0f241d80506)
+        ;
+
+        
+    
+    
+            var circle_marker_f2faad42afa06c62246437586457429c = L.circleMarker(
+                [24.7261, -81.0514],
+                {"bubblingMouseEvents": true, "color": "darkred", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkred", "fillOpacity": 1.0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_19a4398ea299f4abb18650c07e02eb70);
+        
+    
+        var popup_8f1c6c06623cfde874fa8e347d4751cd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d8c20784279efcfaa217dbbd1f4f0ce8 = $(`<div id="html_d8c20784279efcfaa217dbbd1f4f0ce8" style="width: 100.0%; height: 100.0%;">Florida Keys Marathon Airport (MTH): 15 descending flights</div>`)[0];
+                popup_8f1c6c06623cfde874fa8e347d4751cd.setContent(html_d8c20784279efcfaa217dbbd1f4f0ce8);
+            
+        
+
+        circle_marker_f2faad42afa06c62246437586457429c.bindPopup(popup_8f1c6c06623cfde874fa8e347d4751cd)
+        ;
+
+        
+    
+    
+            var circle_marker_631afe95a12266d0226aadf394e4fbe9 = L.circleMarker(
+                [45.6994, -110.448],
+                {"bubblingMouseEvents": true, "color": "darkred", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkred", "fillOpacity": 1.0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_19a4398ea299f4abb18650c07e02eb70);
+        
+    
+        var popup_5039a286c6129a7af022dcc08a252f66 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5873f8f3c998fb75261c4037e84e15c3 = $(`<div id="html_5873f8f3c998fb75261c4037e84e15c3" style="width: 100.0%; height: 100.0%;">Mission Field (LVM): 15 descending flights</div>`)[0];
+                popup_5039a286c6129a7af022dcc08a252f66.setContent(html_5873f8f3c998fb75261c4037e84e15c3);
+            
+        
+
+        circle_marker_631afe95a12266d0226aadf394e4fbe9.bindPopup(popup_5039a286c6129a7af022dcc08a252f66)
+        ;
+
+        
+    
+    
+            var circle_marker_39f3e6405c8f8f38cd60528d6ecf0041 = L.circleMarker(
+                [32.9876, -97.3188],
+                {"bubblingMouseEvents": true, "color": "darkred", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkred", "fillOpacity": 1.0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_19a4398ea299f4abb18650c07e02eb70);
+        
+    
+        var popup_3f0cff93483054eed67fa18f58a97dad = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5037370b21e588a45d5725b6cf6c5d86 = $(`<div id="html_5037370b21e588a45d5725b6cf6c5d86" style="width: 100.0%; height: 100.0%;">Fort Worth Alliance Airport (AFW): 15 descending flights</div>`)[0];
+                popup_3f0cff93483054eed67fa18f58a97dad.setContent(html_5037370b21e588a45d5725b6cf6c5d86);
+            
+        
+
+        circle_marker_39f3e6405c8f8f38cd60528d6ecf0041.bindPopup(popup_3f0cff93483054eed67fa18f58a97dad)
+        ;
+
+        
+    
+    
+            var circle_marker_c2ed77dd0c384bb8a56fd3fed30aa346 = L.circleMarker(
+                [52.3086, 4.76389],
+                {"bubblingMouseEvents": true, "color": "darkred", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkred", "fillOpacity": 0.98, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_19a4398ea299f4abb18650c07e02eb70);
+        
+    
+        var popup_4e705be702ffde5eb8b496a271e64a98 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a4fc72e90dfe65996b69480df54183cb = $(`<div id="html_a4fc72e90dfe65996b69480df54183cb" style="width: 100.0%; height: 100.0%;">Amsterdam Airport Schiphol (AMS): 14 descending flights</div>`)[0];
+                popup_4e705be702ffde5eb8b496a271e64a98.setContent(html_a4fc72e90dfe65996b69480df54183cb);
+            
+        
+
+        circle_marker_c2ed77dd0c384bb8a56fd3fed30aa346.bindPopup(popup_4e705be702ffde5eb8b496a271e64a98)
+        ;
+
+        
+    
+    
+            var circle_marker_ef4220f185e3aad1c9cba0b38261e662 = L.circleMarker(
+                [50.1008, 14.26],
+                {"bubblingMouseEvents": true, "color": "darkred", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkred", "fillOpacity": 0.98, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_19a4398ea299f4abb18650c07e02eb70);
+        
+    
+        var popup_59e80896dac97a8209af37cc0b4d70f3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_82fc007dc4eb313a05e186072fdffc1f = $(`<div id="html_82fc007dc4eb313a05e186072fdffc1f" style="width: 100.0%; height: 100.0%;">Vaclav Havel Airport Prague (PRG): 14 descending flights</div>`)[0];
+                popup_59e80896dac97a8209af37cc0b4d70f3.setContent(html_82fc007dc4eb313a05e186072fdffc1f);
+            
+        
+
+        circle_marker_ef4220f185e3aad1c9cba0b38261e662.bindPopup(popup_59e80896dac97a8209af37cc0b4d70f3)
+        ;
+
+        
+    
+    
+            var circle_marker_12f39eb844fd4a9b11e099ecf8a19bcc = L.circleMarker(
+                [43.5727, -71.4189],
+                {"bubblingMouseEvents": true, "color": "darkred", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkred", "fillOpacity": 0.8999999999999999, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_19a4398ea299f4abb18650c07e02eb70);
+        
+    
+        var popup_c7e473746e9c89bcc543fbec17bba735 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a6a95552d331d66d867def2f1e693823 = $(`<div id="html_a6a95552d331d66d867def2f1e693823" style="width: 100.0%; height: 100.0%;">Laconia Municipal Airport (LCI): 10 descending flights</div>`)[0];
+                popup_c7e473746e9c89bcc543fbec17bba735.setContent(html_a6a95552d331d66d867def2f1e693823);
+            
+        
+
+        circle_marker_12f39eb844fd4a9b11e099ecf8a19bcc.bindPopup(popup_c7e473746e9c89bcc543fbec17bba735)
+        ;
+
+        
+    
+    
+            var circle_marker_c36ea4a7546749cd032654cd63a450be = L.circleMarker(
+                [45.5404, -122.95],
+                {"bubblingMouseEvents": true, "color": "darkred", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkred", "fillOpacity": 0.86, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_19a4398ea299f4abb18650c07e02eb70);
+        
+    
+        var popup_bb6204187a715984479d6550caced90d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c7dbb507ff8a20df5289daf67fb03260 = $(`<div id="html_c7dbb507ff8a20df5289daf67fb03260" style="width: 100.0%; height: 100.0%;">Hillsboro Airport (Portland-Hillsboro Airport) (HIO): 8 descending flights</div>`)[0];
+                popup_bb6204187a715984479d6550caced90d.setContent(html_c7dbb507ff8a20df5289daf67fb03260);
+            
+        
+
+        circle_marker_c36ea4a7546749cd032654cd63a450be.bindPopup(popup_bb6204187a715984479d6550caced90d)
+        ;
+
+        
+    
+    
+            var circle_marker_10eb70da3207a7b9c1e3c75cf1b38594 = L.circleMarker(
+                [45.5887, -122.598],
+                {"bubblingMouseEvents": true, "color": "darkred", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkred", "fillOpacity": 0.84, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_19a4398ea299f4abb18650c07e02eb70);
+        
+    
+        var popup_aede35c86647a6373d234db2cc68d1b4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_47eeed499f188fe1e8403b2128c89ddc = $(`<div id="html_47eeed499f188fe1e8403b2128c89ddc" style="width: 100.0%; height: 100.0%;">Portland International Airport (PDX): 7 descending flights</div>`)[0];
+                popup_aede35c86647a6373d234db2cc68d1b4.setContent(html_47eeed499f188fe1e8403b2128c89ddc);
+            
+        
+
+        circle_marker_10eb70da3207a7b9c1e3c75cf1b38594.bindPopup(popup_aede35c86647a6373d234db2cc68d1b4)
+        ;
+
+        
+    
+    
+            var circle_marker_62f596f98b4c1176c3e0402635ce81fb = L.circleMarker(
+                [38.5125, -121.493],
+                {"bubblingMouseEvents": true, "color": "darkred", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkred", "fillOpacity": 0.84, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_19a4398ea299f4abb18650c07e02eb70);
+        
+    
+        var popup_fc4ae34d1ee44a7a6b11e29c53cb0ff9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7133160594a55e6564b3ade09e4cb030 = $(`<div id="html_7133160594a55e6564b3ade09e4cb030" style="width: 100.0%; height: 100.0%;">Sacramento Executive Airport (SAC): 7 descending flights</div>`)[0];
+                popup_fc4ae34d1ee44a7a6b11e29c53cb0ff9.setContent(html_7133160594a55e6564b3ade09e4cb030);
+            
+        
+
+        circle_marker_62f596f98b4c1176c3e0402635ce81fb.bindPopup(popup_fc4ae34d1ee44a7a6b11e29c53cb0ff9)
+        ;
+
+        
+    
+    
+            var circle_marker_5258db5e04c38caaeea5969e234a8223 = L.circleMarker(
+                [45.0135, -84.7036],
+                {"bubblingMouseEvents": true, "color": "darkred", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkred", "fillOpacity": 0.82, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_19a4398ea299f4abb18650c07e02eb70);
+        
+    
+        var popup_f7a33311cb27ad7d1436e835bb5b24cf = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_257116937ef3c88adcea7f7ef686b67e = $(`<div id="html_257116937ef3c88adcea7f7ef686b67e" style="width: 100.0%; height: 100.0%;">Gaylord Regional Airport (GLR): 6 descending flights</div>`)[0];
+                popup_f7a33311cb27ad7d1436e835bb5b24cf.setContent(html_257116937ef3c88adcea7f7ef686b67e);
+            
+        
+
+        circle_marker_5258db5e04c38caaeea5969e234a8223.bindPopup(popup_f7a33311cb27ad7d1436e835bb5b24cf)
+        ;
+
+        
+    
+    
+            var circle_marker_f35ad8df0cad617b10e9b462ac430015 = L.circleMarker(
+                [43.9911, -70.9479],
+                {"bubblingMouseEvents": true, "color": "darkred", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkred", "fillOpacity": 0.7999999999999999, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_19a4398ea299f4abb18650c07e02eb70);
+        
+    
+        var popup_f7578210a3e163cea3621b7b0c9bbe95 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3a6765652d07fb2b2847b40e80828a51 = $(`<div id="html_3a6765652d07fb2b2847b40e80828a51" style="width: 100.0%; height: 100.0%;">Eastern Slopes Regional Airport (FRY): 5 descending flights</div>`)[0];
+                popup_f7578210a3e163cea3621b7b0c9bbe95.setContent(html_3a6765652d07fb2b2847b40e80828a51);
+            
+        
+
+        circle_marker_f35ad8df0cad617b10e9b462ac430015.bindPopup(popup_f7578210a3e163cea3621b7b0c9bbe95)
+        ;
+
+        
+    
+    
+            var circle_marker_d705a09db83e8eee882ee1fa65d19d66 = L.circleMarker(
+                [50.2166, 14.3958],
+                {"bubblingMouseEvents": true, "color": "darkred", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkred", "fillOpacity": 0.72, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_19a4398ea299f4abb18650c07e02eb70);
+        
+    
+        var popup_e9817d6c9db35d1ee1ab46b79898aa37 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_48087b88a9f8f54da4954454035bd165 = $(`<div id="html_48087b88a9f8f54da4954454035bd165" style="width: 100.0%; height: 100.0%;">Vodochody Airport (VOD): 1 descending flights</div>`)[0];
+                popup_e9817d6c9db35d1ee1ab46b79898aa37.setContent(html_48087b88a9f8f54da4954454035bd165);
+            
+        
+
+        circle_marker_d705a09db83e8eee882ee1fa65d19d66.bindPopup(popup_e9817d6c9db35d1ee1ab46b79898aa37)
+        ;
+
+        
+    
+</script>
+</html>

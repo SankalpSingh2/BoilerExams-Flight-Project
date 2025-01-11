@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_5203ed5397b8c492d81ea722a1046f49 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+    <script src="https://cdn.jsdelivr.net/gh/python-visualization/folium@main/folium/templates/leaflet_heat.min.js"></script>
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_5203ed5397b8c492d81ea722a1046f49" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_5203ed5397b8c492d81ea722a1046f49 = L.map(
+                "map_5203ed5397b8c492d81ea722a1046f49",
+                {
+                    center: [47.54608, -122.58325],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 6,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_7775c09e899bce4b41cb16a78b5aaee7 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_5203ed5397b8c492d81ea722a1046f49);
+        
+    
+            var heat_map_758c9e624a25f47ae62f45499a3e7f55 = L.heatLayer(
+                [[59.715023, 5.279404], [42.97498, -71.1132], [59.700348, 5.272797], [42.969765, -71.11679], [59.686207, 5.271543], [42.964417, -71.120125], [59.670868, 5.272797], [42.959015, -71.12312], [59.656265, 5.274445], [42.953842, -71.12625], [59.641144, 5.276184], [42.948723, -71.12987], [59.62697, 5.27774], [42.94368, -71.13367], [59.612686, 5.279297], [42.938293, -71.13759], [59.598595, 5.280825], [42.93283, -71.140816], [59.58522, 5.282227], [42.927402, -71.14354], [59.571762, 5.283783], [42.922028, -71.14593], [59.559677, 5.285065], [42.916508, -71.14831], [59.54686, 5.28653], [42.910923, -71.150925], [59.53578, 5.28772], [42.90543, -71.15354]],
+                {"blur": 15, "maxZoom": 18, "minOpacity": 0.5, "radius": 25}
+            ).addTo(map_5203ed5397b8c492d81ea722a1046f49);
+        
+    
+            var marker_810e882464199e34d8037ee464d86871 = L.marker(
+                [59.7919, 5.34085],
+                {}
+            ).addTo(map_5203ed5397b8c492d81ea722a1046f49);
+        
+    
+            var icon_15231b2cbd3c56244037acd320fcd56c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_810e882464199e34d8037ee464d86871.setIcon(icon_15231b2cbd3c56244037acd320fcd56c);
+        
+    
+        var popup_fc1c1141afbd47918db51bbe6a339701 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4ed587e7f11604a35a4506c6d9b0daa4 = $(`<div id="html_4ed587e7f11604a35a4506c6d9b0daa4" style="width: 100.0%; height: 100.0%;">Stord Airport (SRP)</div>`)[0];
+                popup_fc1c1141afbd47918db51bbe6a339701.setContent(html_4ed587e7f11604a35a4506c6d9b0daa4);
+            
+        
+
+        marker_810e882464199e34d8037ee464d86871.bindPopup(popup_fc1c1141afbd47918db51bbe6a339701)
+        ;
+
+        
+    
+    
+            var marker_115694631b327df21f505f38faab0121 = L.marker(
+                [43.0779, -70.8233],
+                {}
+            ).addTo(map_5203ed5397b8c492d81ea722a1046f49);
+        
+    
+            var icon_539f7dc8cb2848cef4e3efde2587bc6a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_115694631b327df21f505f38faab0121.setIcon(icon_539f7dc8cb2848cef4e3efde2587bc6a);
+        
+    
+        var popup_be37302ecbfdb09a5b9c9e982cac63cc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8b93773332900e1e3e81fa95ed684625 = $(`<div id="html_8b93773332900e1e3e81fa95ed684625" style="width: 100.0%; height: 100.0%;">Portsmouth International Airport at Pease (PSM)</div>`)[0];
+                popup_be37302ecbfdb09a5b9c9e982cac63cc.setContent(html_8b93773332900e1e3e81fa95ed684625);
+            
+        
+
+        marker_115694631b327df21f505f38faab0121.bindPopup(popup_be37302ecbfdb09a5b9c9e982cac63cc)
+        ;
+
+        
+    
+    
+            var marker_15e76eea60017657b9f77f293ab1b2c3 = L.marker(
+                [42.9326, -71.4357],
+                {}
+            ).addTo(map_5203ed5397b8c492d81ea722a1046f49);
+        
+    
+            var icon_83300c5361c1bba02fed845bd1452ef5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_15e76eea60017657b9f77f293ab1b2c3.setIcon(icon_83300c5361c1bba02fed845bd1452ef5);
+        
+    
+        var popup_189db101f4b3de1e975f19b20c54e44b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a1c53e86fd4a9132ec0e221710703f88 = $(`<div id="html_a1c53e86fd4a9132ec0e221710703f88" style="width: 100.0%; height: 100.0%;">Manchester-Boston Regional Airport (MHT)</div>`)[0];
+                popup_189db101f4b3de1e975f19b20c54e44b.setContent(html_a1c53e86fd4a9132ec0e221710703f88);
+            
+        
+
+        marker_15e76eea60017657b9f77f293ab1b2c3.bindPopup(popup_189db101f4b3de1e975f19b20c54e44b)
+        ;
+
+        
+    
+    
+            var marker_ec8368606e9a433483eff29ca6e4199a = L.marker(
+                [42.7172, -71.1234],
+                {}
+            ).addTo(map_5203ed5397b8c492d81ea722a1046f49);
+        
+    
+            var icon_69013040b36115b85b78f7b8b85df2a4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_ec8368606e9a433483eff29ca6e4199a.setIcon(icon_69013040b36115b85b78f7b8b85df2a4);
+        
+    
+        var popup_7b91c3a3e98b060d3e8f65347258580f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5a2c8d7f8b1a9cb5dabd5733ffbaba32 = $(`<div id="html_5a2c8d7f8b1a9cb5dabd5733ffbaba32" style="width: 100.0%; height: 100.0%;">Lawrence Municipal Airport (LWM)</div>`)[0];
+                popup_7b91c3a3e98b060d3e8f65347258580f.setContent(html_5a2c8d7f8b1a9cb5dabd5733ffbaba32);
+            
+        
+
+        marker_ec8368606e9a433483eff29ca6e4199a.bindPopup(popup_7b91c3a3e98b060d3e8f65347258580f)
+        ;
+
+        
+    
+    
+            var marker_b54f3e6c4d352a17d27905ce567d901d = L.marker(
+                [59.3453, 5.20836],
+                {}
+            ).addTo(map_5203ed5397b8c492d81ea722a1046f49);
+        
+    
+            var icon_5407d06d87dd26d42dc9bca5208bd4f4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_b54f3e6c4d352a17d27905ce567d901d.setIcon(icon_5407d06d87dd26d42dc9bca5208bd4f4);
+        
+    
+        var popup_2aa01698864a76fd11511e806e3dcc15 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a7dd2d6c640543e341212c84fc6daf1e = $(`<div id="html_a7dd2d6c640543e341212c84fc6daf1e" style="width: 100.0%; height: 100.0%;">Haugesund Airport (HAU)</div>`)[0];
+                popup_2aa01698864a76fd11511e806e3dcc15.setContent(html_a7dd2d6c640543e341212c84fc6daf1e);
+            
+        
+
+        marker_b54f3e6c4d352a17d27905ce567d901d.bindPopup(popup_2aa01698864a76fd11511e806e3dcc15)
+        ;
+
+        
+    
+</script>
+</html>

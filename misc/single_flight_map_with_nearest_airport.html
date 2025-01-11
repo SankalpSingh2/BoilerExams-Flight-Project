@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_b519b5e9fa28bc67a534b5e53f11ea06 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_b519b5e9fa28bc67a534b5e53f11ea06" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_b519b5e9fa28bc67a534b5e53f11ea06 = L.map(
+                "map_b519b5e9fa28bc67a534b5e53f11ea06",
+                {
+                    center: [21.022804, -157.58495],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 6,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_61cf03d14ea36642c2283ffc8b624476 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_b519b5e9fa28bc67a534b5e53f11ea06);
+        
+    
+            var marker_b993479a9b7da67949149741f98c70f9 = L.marker(
+                [21.022804, -157.58495],
+                {}
+            ).addTo(map_b519b5e9fa28bc67a534b5e53f11ea06);
+        
+    
+            var icon_c700d4e397fcf226fbb702906c134739 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plane", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_b993479a9b7da67949149741f98c70f9.setIcon(icon_c700d4e397fcf226fbb702906c134739);
+        
+    
+        var popup_1d1052a2452b8dd709cf73cf240c6932 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_431674ec894bb2fc492d71d2370580df = $(`<div id="html_431674ec894bb2fc492d71d2370580df" style="width: 100.0%; height: 100.0%;">Flight: SWA1081 <br>Altitude: 5275<br>Operator: Southwest Airlines<br>Latitude: 21.022804<br>Longitude: -157.58495</div>`)[0];
+                popup_1d1052a2452b8dd709cf73cf240c6932.setContent(html_431674ec894bb2fc492d71d2370580df);
+            
+        
+
+        marker_b993479a9b7da67949149741f98c70f9.bindPopup(popup_1d1052a2452b8dd709cf73cf240c6932)
+        ;
+
+        
+    
+    
+            var marker_1e0ee1cbffd605353e0763099bcf1af8 = L.marker(
+                [21.030533, -157.59319],
+                {}
+            ).addTo(map_b519b5e9fa28bc67a534b5e53f11ea06);
+        
+    
+            var icon_629193233c3156c751661b7ff8549e04 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plane", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_1e0ee1cbffd605353e0763099bcf1af8.setIcon(icon_629193233c3156c751661b7ff8549e04);
+        
+    
+        var popup_8ce4598bea032da32f8e3517ce2803fd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c183dedd33b9e5f0112660d5e6e6e059 = $(`<div id="html_c183dedd33b9e5f0112660d5e6e6e059" style="width: 100.0%; height: 100.0%;">Flight: SWA1081 <br>Altitude: 5100<br>Operator: Southwest Airlines<br>Latitude: 21.030533<br>Longitude: -157.59319</div>`)[0];
+                popup_8ce4598bea032da32f8e3517ce2803fd.setContent(html_c183dedd33b9e5f0112660d5e6e6e059);
+            
+        
+
+        marker_1e0ee1cbffd605353e0763099bcf1af8.bindPopup(popup_8ce4598bea032da32f8e3517ce2803fd)
+        ;
+
+        
+    
+    
+            var marker_29a08ac9645d81a4d290e70f3563b6c7 = L.marker(
+                [21.038132, -157.60127],
+                {}
+            ).addTo(map_b519b5e9fa28bc67a534b5e53f11ea06);
+        
+    
+            var icon_55fc52e9174214489f0d45971111c106 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plane", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_29a08ac9645d81a4d290e70f3563b6c7.setIcon(icon_55fc52e9174214489f0d45971111c106);
+        
+    
+        var popup_77acc545ebbe47154c71beb134eafede = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_33e7566d5147c18f8f866d83a6506e84 = $(`<div id="html_33e7566d5147c18f8f866d83a6506e84" style="width: 100.0%; height: 100.0%;">Flight: SWA1081 <br>Altitude: 4875<br>Operator: Southwest Airlines<br>Latitude: 21.038132<br>Longitude: -157.60127</div>`)[0];
+                popup_77acc545ebbe47154c71beb134eafede.setContent(html_33e7566d5147c18f8f866d83a6506e84);
+            
+        
+
+        marker_29a08ac9645d81a4d290e70f3563b6c7.bindPopup(popup_77acc545ebbe47154c71beb134eafede)
+        ;
+
+        
+    
+    
+            var marker_c2d48ec098f1880ceb85238a76467b47 = L.marker(
+                [21.04573, -157.60936],
+                {}
+            ).addTo(map_b519b5e9fa28bc67a534b5e53f11ea06);
+        
+    
+            var icon_ad947fe442d7241b8396f6fc174e36a1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plane", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_c2d48ec098f1880ceb85238a76467b47.setIcon(icon_ad947fe442d7241b8396f6fc174e36a1);
+        
+    
+        var popup_7c80b2fc77e17ab67d0b615e15480450 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_14243facc8e3bad8487ddbdf1d152f27 = $(`<div id="html_14243facc8e3bad8487ddbdf1d152f27" style="width: 100.0%; height: 100.0%;">Flight: SWA1081 <br>Altitude: 4675<br>Operator: Southwest Airlines<br>Latitude: 21.04573<br>Longitude: -157.60936</div>`)[0];
+                popup_7c80b2fc77e17ab67d0b615e15480450.setContent(html_14243facc8e3bad8487ddbdf1d152f27);
+            
+        
+
+        marker_c2d48ec098f1880ceb85238a76467b47.bindPopup(popup_7c80b2fc77e17ab67d0b615e15480450)
+        ;
+
+        
+    
+    
+            var marker_8a52893d14976a6465769d0518b32c83 = L.marker(
+                [21.053436, -157.6176],
+                {}
+            ).addTo(map_b519b5e9fa28bc67a534b5e53f11ea06);
+        
+    
+            var icon_5a80a898fc337cb4380f91f6f9953a86 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plane", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_8a52893d14976a6465769d0518b32c83.setIcon(icon_5a80a898fc337cb4380f91f6f9953a86);
+        
+    
+        var popup_7798e4b705627cc9a2db211741611d9a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_08ce80ffe83f2415eccf929886173dc4 = $(`<div id="html_08ce80ffe83f2415eccf929886173dc4" style="width: 100.0%; height: 100.0%;">Flight: SWA1081 <br>Altitude: 4475<br>Operator: Southwest Airlines<br>Latitude: 21.053436<br>Longitude: -157.6176</div>`)[0];
+                popup_7798e4b705627cc9a2db211741611d9a.setContent(html_08ce80ffe83f2415eccf929886173dc4);
+            
+        
+
+        marker_8a52893d14976a6465769d0518b32c83.bindPopup(popup_7798e4b705627cc9a2db211741611d9a)
+        ;
+
+        
+    
+    
+            var marker_a5b1f5119aef0cc31ecbdbd15a4e6316 = L.marker(
+                [21.060791, -157.62532],
+                {}
+            ).addTo(map_b519b5e9fa28bc67a534b5e53f11ea06);
+        
+    
+            var icon_e012573618c006bdd8e493400c1ba157 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plane", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_a5b1f5119aef0cc31ecbdbd15a4e6316.setIcon(icon_e012573618c006bdd8e493400c1ba157);
+        
+    
+        var popup_c08c8fcc83e492044643ef21645b2d5b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bc3b97951adbd255c1c6b1cfa55cda67 = $(`<div id="html_bc3b97951adbd255c1c6b1cfa55cda67" style="width: 100.0%; height: 100.0%;">Flight: SWA1081 <br>Altitude: 4300<br>Operator: Southwest Airlines<br>Latitude: 21.060791<br>Longitude: -157.62532</div>`)[0];
+                popup_c08c8fcc83e492044643ef21645b2d5b.setContent(html_bc3b97951adbd255c1c6b1cfa55cda67);
+            
+        
+
+        marker_a5b1f5119aef0cc31ecbdbd15a4e6316.bindPopup(popup_c08c8fcc83e492044643ef21645b2d5b)
+        ;
+
+        
+    
+    
+            var marker_a4e55cec043082c0e97f282edc7d7d43 = L.marker(
+                [21.06839, -157.63333],
+                {}
+            ).addTo(map_b519b5e9fa28bc67a534b5e53f11ea06);
+        
+    
+            var icon_491ff1b0ba985ccf30f63fa96e6d4f67 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plane", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_a4e55cec043082c0e97f282edc7d7d43.setIcon(icon_491ff1b0ba985ccf30f63fa96e6d4f67);
+        
+    
+        var popup_85e9d22a311203238b315b6a3abbce6f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8f865f5c5cd35ad68632baf914bc0ea5 = $(`<div id="html_8f865f5c5cd35ad68632baf914bc0ea5" style="width: 100.0%; height: 100.0%;">Flight: SWA1081 <br>Altitude: 4175<br>Operator: Southwest Airlines<br>Latitude: 21.06839<br>Longitude: -157.63333</div>`)[0];
+                popup_85e9d22a311203238b315b6a3abbce6f.setContent(html_8f865f5c5cd35ad68632baf914bc0ea5);
+            
+        
+
+        marker_a4e55cec043082c0e97f282edc7d7d43.bindPopup(popup_85e9d22a311203238b315b6a3abbce6f)
+        ;
+
+        
+    
+    
+            var marker_b62327f7706f6a8cd488b332aad10cd2 = L.marker(
+                [21.076126, -157.64148],
+                {}
+            ).addTo(map_b519b5e9fa28bc67a534b5e53f11ea06);
+        
+    
+            var icon_582dc51da4b24c132e203b9cd0a917c0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plane", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_b62327f7706f6a8cd488b332aad10cd2.setIcon(icon_582dc51da4b24c132e203b9cd0a917c0);
+        
+    
+        var popup_b32d82e8a24b0d0a6f6996ad4822fce8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_006ee3fe65d7edee8c95ff1c88aec77f = $(`<div id="html_006ee3fe65d7edee8c95ff1c88aec77f" style="width: 100.0%; height: 100.0%;">Flight: SWA1081 <br>Altitude: 4000<br>Operator: Southwest Airlines<br>Latitude: 21.076126<br>Longitude: -157.64148</div>`)[0];
+                popup_b32d82e8a24b0d0a6f6996ad4822fce8.setContent(html_006ee3fe65d7edee8c95ff1c88aec77f);
+            
+        
+
+        marker_b62327f7706f6a8cd488b332aad10cd2.bindPopup(popup_b32d82e8a24b0d0a6f6996ad4822fce8)
+        ;
+
+        
+    
+    
+            var marker_5b00f105ce9426c540688a635567ddc7 = L.marker(
+                [21.083603, -157.64938],
+                {}
+            ).addTo(map_b519b5e9fa28bc67a534b5e53f11ea06);
+        
+    
+            var icon_8e27fe6bafa1130a1c39e2d213de8238 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plane", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_5b00f105ce9426c540688a635567ddc7.setIcon(icon_8e27fe6bafa1130a1c39e2d213de8238);
+        
+    
+        var popup_8ba35d75cae3abf60e3b3bb4127d7cc7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f669465498eef3bd33026d22f1a27f04 = $(`<div id="html_f669465498eef3bd33026d22f1a27f04" style="width: 100.0%; height: 100.0%;">Flight: SWA1081 <br>Altitude: 3825<br>Operator: Southwest Airlines<br>Latitude: 21.083603<br>Longitude: -157.64938</div>`)[0];
+                popup_8ba35d75cae3abf60e3b3bb4127d7cc7.setContent(html_f669465498eef3bd33026d22f1a27f04);
+            
+        
+
+        marker_5b00f105ce9426c540688a635567ddc7.bindPopup(popup_8ba35d75cae3abf60e3b3bb4127d7cc7)
+        ;
+
+        
+    
+    
+            var marker_401f6e62a91bc91e1572db5133412df9 = L.marker(
+                [21.09077, -157.65701],
+                {}
+            ).addTo(map_b519b5e9fa28bc67a534b5e53f11ea06);
+        
+    
+            var icon_af6775c7682eb14deed64ba945e91b82 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plane", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_401f6e62a91bc91e1572db5133412df9.setIcon(icon_af6775c7682eb14deed64ba945e91b82);
+        
+    
+        var popup_3d3c50b89e775abb19fddcee959e60b3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_06bc52dbe4e78e6e2ff7a23f5a118538 = $(`<div id="html_06bc52dbe4e78e6e2ff7a23f5a118538" style="width: 100.0%; height: 100.0%;">Flight: SWA1081 <br>Altitude: 3775<br>Operator: Southwest Airlines<br>Latitude: 21.09077<br>Longitude: -157.65701</div>`)[0];
+                popup_3d3c50b89e775abb19fddcee959e60b3.setContent(html_06bc52dbe4e78e6e2ff7a23f5a118538);
+            
+        
+
+        marker_401f6e62a91bc91e1572db5133412df9.bindPopup(popup_3d3c50b89e775abb19fddcee959e60b3)
+        ;
+
+        
+    
+    
+            var marker_c6357b79cc688b5cb8c10e3053c012f2 = L.marker(
+                [21.098125, -157.6648],
+                {}
+            ).addTo(map_b519b5e9fa28bc67a534b5e53f11ea06);
+        
+    
+            var icon_71dad0e4f1f0e5cd53cec348ee00573d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plane", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_c6357b79cc688b5cb8c10e3053c012f2.setIcon(icon_71dad0e4f1f0e5cd53cec348ee00573d);
+        
+    
+        var popup_d32cda7a7dabb2cce0e4dc078922ad68 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4f9778f64130e403725d494ac8ccdbb5 = $(`<div id="html_4f9778f64130e403725d494ac8ccdbb5" style="width: 100.0%; height: 100.0%;">Flight: SWA1081 <br>Altitude: 3775<br>Operator: Southwest Airlines<br>Latitude: 21.098125<br>Longitude: -157.6648</div>`)[0];
+                popup_d32cda7a7dabb2cce0e4dc078922ad68.setContent(html_4f9778f64130e403725d494ac8ccdbb5);
+            
+        
+
+        marker_c6357b79cc688b5cb8c10e3053c012f2.bindPopup(popup_d32cda7a7dabb2cce0e4dc078922ad68)
+        ;
+
+        
+    
+    
+            var marker_74be3d92458f2589696975a4c2a58404 = L.marker(
+                [21.105667, -157.67278],
+                {}
+            ).addTo(map_b519b5e9fa28bc67a534b5e53f11ea06);
+        
+    
+            var icon_b2f4602b5f4f10f97e7d9ef641b0ff19 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plane", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_74be3d92458f2589696975a4c2a58404.setIcon(icon_b2f4602b5f4f10f97e7d9ef641b0ff19);
+        
+    
+        var popup_e0670d2de7369703c984674d7c6058f5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_96111df078d9eb0e8bfb17440cb6a45e = $(`<div id="html_96111df078d9eb0e8bfb17440cb6a45e" style="width: 100.0%; height: 100.0%;">Flight: SWA1081 <br>Altitude: 3675<br>Operator: Southwest Airlines<br>Latitude: 21.105667<br>Longitude: -157.67278</div>`)[0];
+                popup_e0670d2de7369703c984674d7c6058f5.setContent(html_96111df078d9eb0e8bfb17440cb6a45e);
+            
+        
+
+        marker_74be3d92458f2589696975a4c2a58404.bindPopup(popup_e0670d2de7369703c984674d7c6058f5)
+        ;
+
+        
+    
+    
+            var marker_eec3f437f95f06e13d8257f16714ba9e = L.marker(
+                [21.113205, -157.68083],
+                {}
+            ).addTo(map_b519b5e9fa28bc67a534b5e53f11ea06);
+        
+    
+            var icon_2db624afaf78885835c7c987d1de9fb9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plane", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_eec3f437f95f06e13d8257f16714ba9e.setIcon(icon_2db624afaf78885835c7c987d1de9fb9);
+        
+    
+        var popup_6fe3e2579f6cd71c08cfbe878d2c7842 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_788a1b81871861b6c455d099216cc85a = $(`<div id="html_788a1b81871861b6c455d099216cc85a" style="width: 100.0%; height: 100.0%;">Flight: SWA1081 <br>Altitude: 3550<br>Operator: Southwest Airlines<br>Latitude: 21.113205<br>Longitude: -157.68083</div>`)[0];
+                popup_6fe3e2579f6cd71c08cfbe878d2c7842.setContent(html_788a1b81871861b6c455d099216cc85a);
+            
+        
+
+        marker_eec3f437f95f06e13d8257f16714ba9e.bindPopup(popup_6fe3e2579f6cd71c08cfbe878d2c7842)
+        ;
+
+        
+    
+    
+            var marker_b6eefb3ebace4ff7d45c28f0fb3e2290 = L.marker(
+                [21.120255, -157.68852],
+                {}
+            ).addTo(map_b519b5e9fa28bc67a534b5e53f11ea06);
+        
+    
+            var icon_0d2cef8a3435498ccad87b47131eab53 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plane", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_b6eefb3ebace4ff7d45c28f0fb3e2290.setIcon(icon_0d2cef8a3435498ccad87b47131eab53);
+        
+    
+        var popup_5f8548340015c387ab82df137c76c693 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e1e60037209b552b97075d14ed1c2f1c = $(`<div id="html_e1e60037209b552b97075d14ed1c2f1c" style="width: 100.0%; height: 100.0%;">Flight: SWA1081 <br>Altitude: 3475<br>Operator: Southwest Airlines<br>Latitude: 21.120255<br>Longitude: -157.68852</div>`)[0];
+                popup_5f8548340015c387ab82df137c76c693.setContent(html_e1e60037209b552b97075d14ed1c2f1c);
+            
+        
+
+        marker_b6eefb3ebace4ff7d45c28f0fb3e2290.bindPopup(popup_5f8548340015c387ab82df137c76c693)
+        ;
+
+        
+    
+    
+            var marker_0f2a7636b606ba64b3753c07ae6a3292 = L.marker(
+                [21.127733, -157.69673],
+                {}
+            ).addTo(map_b519b5e9fa28bc67a534b5e53f11ea06);
+        
+    
+            var icon_960c1415e8557c04f844c11f4f8369d1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plane", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_0f2a7636b606ba64b3753c07ae6a3292.setIcon(icon_960c1415e8557c04f844c11f4f8369d1);
+        
+    
+        var popup_4e61e320e780cfcfb834a580e88043f4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_02b26a460b359fd6e358b5690542226a = $(`<div id="html_02b26a460b359fd6e358b5690542226a" style="width: 100.0%; height: 100.0%;">Flight: SWA1081 <br>Altitude: 3375<br>Operator: Southwest Airlines<br>Latitude: 21.127733<br>Longitude: -157.69673</div>`)[0];
+                popup_4e61e320e780cfcfb834a580e88043f4.setContent(html_02b26a460b359fd6e358b5690542226a);
+            
+        
+
+        marker_0f2a7636b606ba64b3753c07ae6a3292.bindPopup(popup_4e61e320e780cfcfb834a580e88043f4)
+        ;
+
+        
+    
+    
+            var marker_f3ffc5003f57a6db50f7fd327fa97f43 = L.marker(
+                [21.3206, -157.924],
+                {}
+            ).addTo(map_b519b5e9fa28bc67a534b5e53f11ea06);
+        
+    
+            var icon_97ac46d3ce196ebb4792a7cd2587b771 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "flag", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_f3ffc5003f57a6db50f7fd327fa97f43.setIcon(icon_97ac46d3ce196ebb4792a7cd2587b771);
+        
+    
+        var popup_544489008975636259ad5ad5c73be0aa = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d9f167f15be59cce91f0754eabc99a0e = $(`<div id="html_d9f167f15be59cce91f0754eabc99a0e" style="width: 100.0%; height: 100.0%;">Nearest Airport: Daniel K. Inouye International Airport<br>Distance: 31.82 km</div>`)[0];
+                popup_544489008975636259ad5ad5c73be0aa.setContent(html_d9f167f15be59cce91f0754eabc99a0e);
+            
+        
+
+        marker_f3ffc5003f57a6db50f7fd327fa97f43.bindPopup(popup_544489008975636259ad5ad5c73be0aa)
+        ;
+
+        
+    
+</script>
+</html>

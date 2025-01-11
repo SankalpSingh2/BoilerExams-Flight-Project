@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_a8b7cd7b3918b4c4323594505d8bed4d {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_a8b7cd7b3918b4c4323594505d8bed4d" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_a8b7cd7b3918b4c4323594505d8bed4d = L.map(
+                "map_a8b7cd7b3918b4c4323594505d8bed4d",
+                {
+                    center: [26.37445, -80.00318],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 6,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_425ab796bf3e87042109a8a7c6fd3479 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_a8b7cd7b3918b4c4323594505d8bed4d);
+        
+    
+            var circle_marker_d9828cb6afd4dba1c13c9769a022b184 = L.circleMarker(
+                [35.4308, -99.3943],
+                {"bubblingMouseEvents": true, "color": "darkred", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkred", "fillOpacity": 1.0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_a8b7cd7b3918b4c4323594505d8bed4d);
+        
+    
+        var popup_953b87cf5bf55c7c29ef85cf79a74862 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b486871eeb508246ef31e91b0c24423e = $(`<div id="html_b486871eeb508246ef31e91b0c24423e" style="width: 100.0%; height: 100.0%;">Elk City Regional Business Airport (ELK): 1 descending flights Flight Numbers: AAL830  </div>`)[0];
+                popup_953b87cf5bf55c7c29ef85cf79a74862.setContent(html_b486871eeb508246ef31e91b0c24423e);
+            
+        
+
+        circle_marker_d9828cb6afd4dba1c13c9769a022b184.bindPopup(popup_953b87cf5bf55c7c29ef85cf79a74862)
+        ;
+
+        
+    
+    
+            var circle_marker_603c6b2786af3e6fbf801ae17d6d51e3 = L.circleMarker(
+                [12.1415, -86.1682],
+                {"bubblingMouseEvents": true, "color": "darkred", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkred", "fillOpacity": 1.0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_a8b7cd7b3918b4c4323594505d8bed4d);
+        
+    
+        var popup_462fb773b8742eb25577e16fb34151e8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b56f8b7969c44c0e92796a47794a1bd6 = $(`<div id="html_b56f8b7969c44c0e92796a47794a1bd6" style="width: 100.0%; height: 100.0%;">Augusto C. Sandino International Airport (MGA): 1 descending flights Flight Numbers: CMP871  </div>`)[0];
+                popup_462fb773b8742eb25577e16fb34151e8.setContent(html_b56f8b7969c44c0e92796a47794a1bd6);
+            
+        
+
+        circle_marker_603c6b2786af3e6fbf801ae17d6d51e3.bindPopup(popup_462fb773b8742eb25577e16fb34151e8)
+        ;
+
+        
+    
+    
+            var circle_marker_5ac06e399c2f8b4036941eb33db29d45 = L.circleMarker(
+                [-7.13918, -78.4894],
+                {"bubblingMouseEvents": true, "color": "darkred", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkred", "fillOpacity": 1.0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_a8b7cd7b3918b4c4323594505d8bed4d);
+        
+    
+        var popup_96f5af74706678762ad3fdf60bd128c2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3eabebdb4390f12165209ff520cf0229 = $(`<div id="html_3eabebdb4390f12165209ff520cf0229" style="width: 100.0%; height: 100.0%;">Mayor General FAP Armando Revoredo Iglesias Airport (CJA): 1 descending flights Flight Numbers: LCO3603 </div>`)[0];
+                popup_96f5af74706678762ad3fdf60bd128c2.setContent(html_3eabebdb4390f12165209ff520cf0229);
+            
+        
+
+        circle_marker_5ac06e399c2f8b4036941eb33db29d45.bindPopup(popup_96f5af74706678762ad3fdf60bd128c2)
+        ;
+
+        
+    
+    
+            var circle_marker_39f2c429b49f2b208985215d712908b1 = L.circleMarker(
+                [42.7597, 11.0719],
+                {"bubblingMouseEvents": true, "color": "darkred", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkred", "fillOpacity": 1.0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_a8b7cd7b3918b4c4323594505d8bed4d);
+        
+    
+        var popup_06959e81bcc092b8b7c27c867594826b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8efd809bf7878204ae3ff38042753685 = $(`<div id="html_8efd809bf7878204ae3ff38042753685" style="width: 100.0%; height: 100.0%;">Grosseto Airport (GRS): 1 descending flights Flight Numbers: RYR36UE </div>`)[0];
+                popup_06959e81bcc092b8b7c27c867594826b.setContent(html_8efd809bf7878204ae3ff38042753685);
+            
+        
+
+        circle_marker_39f2c429b49f2b208985215d712908b1.bindPopup(popup_06959e81bcc092b8b7c27c867594826b)
+        ;
+
+        
+    
+    
+            var circle_marker_ac9d3fedc3c18b8e3a21fadbb9226435 = L.circleMarker(
+                [53.4213, -6.27007],
+                {"bubblingMouseEvents": true, "color": "darkred", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkred", "fillOpacity": 1.0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_a8b7cd7b3918b4c4323594505d8bed4d);
+        
+    
+        var popup_2e3012584431aaf58fe2f32a9e23afd9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_969af5cdb61791dc25731e2031e92c61 = $(`<div id="html_969af5cdb61791dc25731e2031e92c61" style="width: 100.0%; height: 100.0%;">Dublin Airport (DUB): 1 descending flights Flight Numbers: RYR958H </div>`)[0];
+                popup_2e3012584431aaf58fe2f32a9e23afd9.setContent(html_969af5cdb61791dc25731e2031e92c61);
+            
+        
+
+        circle_marker_ac9d3fedc3c18b8e3a21fadbb9226435.bindPopup(popup_2e3012584431aaf58fe2f32a9e23afd9)
+        ;
+
+        
+    
+</script>
+</html>

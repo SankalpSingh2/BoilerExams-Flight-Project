@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_83e1f449429264e2f469c4773dc6c3fe {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_83e1f449429264e2f469c4773dc6c3fe" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_83e1f449429264e2f469c4773dc6c3fe = L.map(
+                "map_83e1f449429264e2f469c4773dc6c3fe",
+                {
+                    center: [33.712692, -118.42337],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 6,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_219204b254cf02a8aa04f1a0149d4749 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_83e1f449429264e2f469c4773dc6c3fe);
+        
+    
+            var circle_marker_2b09084e66b81d78eea52689751b3f3c = L.circleMarker(
+                [40.5093, -101.621],
+                {"bubblingMouseEvents": true, "color": "darkred", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkred", "fillOpacity": 1.0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_83e1f449429264e2f469c4773dc6c3fe);
+        
+    
+        var popup_93990e5cb600eb0500eb2abe5b1c06ab = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7bc871664e4c25e3636551a1ed87ecd4 = $(`<div id="html_7bc871664e4c25e3636551a1ed87ecd4" style="width: 100.0%; height: 100.0%;">Imperial Municipal Airport (IML): 2 descending flights</div>`)[0];
+                popup_93990e5cb600eb0500eb2abe5b1c06ab.setContent(html_7bc871664e4c25e3636551a1ed87ecd4);
+            
+        
+
+        circle_marker_2b09084e66b81d78eea52689751b3f3c.bindPopup(popup_93990e5cb600eb0500eb2abe5b1c06ab)
+        ;
+
+        
+    
+    
+            var circle_marker_d2c48aa4a0829fdf279d40c3bffb1fd8 = L.circleMarker(
+                [37.9275, -100.724],
+                {"bubblingMouseEvents": true, "color": "darkred", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkred", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_83e1f449429264e2f469c4773dc6c3fe);
+        
+    
+        var popup_72259bafe6b264066b8c0caabacb2623 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_19d38215d6daa1f4472d384b350ae13f = $(`<div id="html_19d38215d6daa1f4472d384b350ae13f" style="width: 100.0%; height: 100.0%;">Garden City Regional Airport (GCK): 1 descending flights</div>`)[0];
+                popup_72259bafe6b264066b8c0caabacb2623.setContent(html_19d38215d6daa1f4472d384b350ae13f);
+            
+        
+
+        circle_marker_d2c48aa4a0829fdf279d40c3bffb1fd8.bindPopup(popup_72259bafe6b264066b8c0caabacb2623)
+        ;
+
+        
+    
+    
+            var circle_marker_8053d6f67e62d60da6c1fd11fe2093e0 = L.circleMarker(
+                [51.2936, 13.3561],
+                {"bubblingMouseEvents": true, "color": "darkred", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkred", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_83e1f449429264e2f469c4773dc6c3fe);
+        
+    
+        var popup_624b180a0455cfb817f93905b8df4830 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_825e3098d94b6bbca94add551bc8b260 = $(`<div id="html_825e3098d94b6bbca94add551bc8b260" style="width: 100.0%; height: 100.0%;">Riesa-Gohlis Airfield (IES): 1 descending flights</div>`)[0];
+                popup_624b180a0455cfb817f93905b8df4830.setContent(html_825e3098d94b6bbca94add551bc8b260);
+            
+        
+
+        circle_marker_8053d6f67e62d60da6c1fd11fe2093e0.bindPopup(popup_624b180a0455cfb817f93905b8df4830)
+        ;
+
+        
+    
+    
+            var circle_marker_5568c3d47c47d7bbde5d84ce2725b778 = L.circleMarker(
+                [28.705, 77.342],
+                {"bubblingMouseEvents": true, "color": "darkred", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkred", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_83e1f449429264e2f469c4773dc6c3fe);
+        
+    
+        var popup_c4e7ce148e3d5a2e392f5bd105002545 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9040315ce3969d255bb96c30d3dbee09 = $(`<div id="html_9040315ce3969d255bb96c30d3dbee09" style="width: 100.0%; height: 100.0%;">Ghaziabad Hindon Airport (HDO): 1 descending flights</div>`)[0];
+                popup_c4e7ce148e3d5a2e392f5bd105002545.setContent(html_9040315ce3969d255bb96c30d3dbee09);
+            
+        
+
+        circle_marker_5568c3d47c47d7bbde5d84ce2725b778.bindPopup(popup_c4e7ce148e3d5a2e392f5bd105002545)
+        ;
+
+        
+    
+    
+            var circle_marker_2d06ea448328d324cb8681cab2340933 = L.circleMarker(
+                [33.6757, -117.868],
+                {"bubblingMouseEvents": true, "color": "darkred", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkred", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_83e1f449429264e2f469c4773dc6c3fe);
+        
+    
+        var popup_e4b181ab6cb1b5c838c5e7d9090bf085 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a45a5756e594e740187de186e577fcf6 = $(`<div id="html_a45a5756e594e740187de186e577fcf6" style="width: 100.0%; height: 100.0%;">John Wayne Airport (Orange County Airport) (SNA): 1 descending flights</div>`)[0];
+                popup_e4b181ab6cb1b5c838c5e7d9090bf085.setContent(html_a45a5756e594e740187de186e577fcf6);
+            
+        
+
+        circle_marker_2d06ea448328d324cb8681cab2340933.bindPopup(popup_e4b181ab6cb1b5c838c5e7d9090bf085)
+        ;
+
+        
+    
+    
+            var circle_marker_768f703b00556a02ae0c854730be1364 = L.circleMarker(
+                [35.7269, -5.91689],
+                {"bubblingMouseEvents": true, "color": "darkred", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkred", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_83e1f449429264e2f469c4773dc6c3fe);
+        
+    
+        var popup_9441d251dc10bd9fb51b04874ea86f3b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0e09d2d3bae108220088edc3627b2cbb = $(`<div id="html_0e09d2d3bae108220088edc3627b2cbb" style="width: 100.0%; height: 100.0%;">Tangier Ibn Battouta Airport (TNG): 1 descending flights</div>`)[0];
+                popup_9441d251dc10bd9fb51b04874ea86f3b.setContent(html_0e09d2d3bae108220088edc3627b2cbb);
+            
+        
+
+        circle_marker_768f703b00556a02ae0c854730be1364.bindPopup(popup_9441d251dc10bd9fb51b04874ea86f3b)
+        ;
+
+        
+    
+</script>
+</html>
